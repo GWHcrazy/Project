@@ -1,0 +1,96 @@
+.dadediv{
+  position: relative;
+  height: 40px;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #333;
+} 
+.all-gwh{
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.dadeyemei{
+  display: block;
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.youyemei {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+
+}
+.zuoyemei {
+  float: right;
+  line-height: 40px;
+}
+.sep{
+  padding: 2px;
+  margin: 0 .25em;
+  font-family: sans-serif;
+}
+.mi{
+  position: relative;
+  float: left;
+}
+.header{
+  display: block;
+}
+
+.dabiaoti{
+  position: relative;
+  z-index: 10;
+  float: left;
+  width: 820px;
+  height: 88px;
+  margin: 0;
+  padding: 12px 0 0 30px;
+  list-style-type: none;
+  font-size: 16px;
+}
+.kongge{    
+  display: block;
+  text-align: -webkit-match-parent;
+  position: relative;
+  float: left;
+  width: 127px;
+  padding-right: 15px;
+  list-style-type: none;
+  font-size: 16px;
+}
+.xiaokongge{
+  display: block;
+  padding: 26px 0 38px;
+  text-align: right;
+  color: #333;
+  visibility: hidden;
+}
+.zuobiankuang{
+  position: absolute;
+  top: 88px;
+  left: -92px;
+  z-index: 21;
+  width: 234px;
+  height: 460px;
+  font-size: 14px;
+}
+.gudingbiankuang{
+  display: block;
+  background: #333;
+}
+.biankuang{
+  display: block;
+}
+.biaoti{
+  float: left;
+  display: block;
+  padding: 26px 10px 38px;
+  color: #333;
+}
