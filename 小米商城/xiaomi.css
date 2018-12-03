@@ -1,33 +1,38 @@
-.dadediv{
+.dadediv-gwh{
   position: relative;
   height: 40px;
   font-size: 12px;
   color: #b0b0b0;
   background: #333;
 } 
-.all-gwh{
-  width: 1226px;
-  margin-left: auto;
-  margin-right: auto;
-}
 body{
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
-.dadeyemei{
+.all-gwh{
+  position: relative;
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dadeyemei-35{
   display: block;
   width: 1226px;
   margin-right: auto;
   margin-left: auto;
 }
-.youyemei {
+.youyemei-35{
   float: left;
   height: 40px;
   line-height: 40px;
 
 }
-.zuoyemei {
+.gouwuche-35{
+  margin-left: 25px;
+  float: right;
+}
+.zuoyemei-35{
   float: right;
   line-height: 40px;
 }
@@ -36,61 +41,40 @@ body{
   margin: 0 .25em;
   font-family: sans-serif;
 }
-.mi{
+.midediv{
   position: relative;
   float: left;
+  margin-top: 22px;
+
 }
 .header{
   display: block;
 }
-
 .dabiaoti{
   position: relative;
   z-index: 10;
   float: left;
   width: 820px;
   height: 88px;
-  margin: 0;
+  margin: 0 100px;
   padding: 12px 0 0 30px;
   list-style-type: none;
   font-size: 16px;
-}
-.kongge{    
-  display: block;
-  text-align: -webkit-match-parent;
-  position: relative;
-  float: left;
-  width: 127px;
-  padding-right: 15px;
-  list-style-type: none;
-  font-size: 16px;
-}
-.xiaokongge{
-  display: block;
-  padding: 26px 0 38px;
-  text-align: right;
-  color: #333;
-  visibility: hidden;
-}
-.zuobiankuang{
-  position: absolute;
-  top: 88px;
-  left: -92px;
-  z-index: 21;
-  width: 234px;
-  height: 460px;
-  font-size: 14px;
-}
-.gudingbiankuang{
-  display: block;
-  background: #333;
-}
-.biankuang{
-  display: block;
 }
 .biaoti{
   float: left;
   display: block;
   padding: 26px 10px 38px;
   color: #333;
+}
+.dakuangkuang-gwh{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  font-size: 14px;
+}
+.hesekuang{
+  list-style-type: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
