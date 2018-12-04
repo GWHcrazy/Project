@@ -26,7 +26,6 @@ body{
   float: left;
   height: 40px;
   line-height: 40px;
-
 }
 .gouwuche-35{
   margin-left: 25px;
@@ -42,15 +41,19 @@ body{
   font-family: sans-serif;
 }
 .midediv{
-  position: relative;
   float: left;
   margin-top: 22px;
 
 }
+.sousuo-gwh{
+  position: absolute;
+  top: 22px;
+  left: 750px;
+}
 .header{
   display: block;
 }
-.dabiaoti{
+.dabiaoti-gwh{
   position: relative;
   z-index: 10;
   float: left;
@@ -61,20 +64,46 @@ body{
   list-style-type: none;
   font-size: 16px;
 }
-.biaoti{
+.biaoti-35{
   float: left;
   display: block;
   padding: 26px 10px 38px;
   color: #333;
 }
-.dakuangkuang-gwh{
+.dakuang-gwh{
+  display: block;
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 234px;
+  height: 460px;
   font-size: 14px;
+  top: 88px;
+  left: 10px;
+  z-index: 21;
+  background: #333
 }
 .hesekuang{
+  height: 420px;
+  border: 0;
+  margin: 0;
+  padding: 20px 0;
   list-style-type: none;
-  display: list-item;
-  text-align: -webkit-match-parent;
+}
+.hesehang{
+  color: #fff;
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  height: 42px;
+  line-height: 42px;
+}
+.kaitoutupian{
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  top:0px;
+  left: 223px;
+}
+.dakongge-gwh{
+  display: block;
+padding: 280px 0px;
 }
